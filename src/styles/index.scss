@@ -131,7 +131,8 @@ color: #616070;
 margin: 16px 0 0;
 display: flex;
 justify-content: space-between;
-align-items: baseline;
+align-items: center;
+
 
 height: 16px;
 }
@@ -146,11 +147,12 @@ width: 96px;
 .stars__star{
 display: flex;
 
-width: 14px;
-height: 13px;
+width: 16px;
+height: 16px;
 
 border-radius: 0.5px;
 background-image: url("../images/star.svg");
+background-repeat: no-repeat;
 }
 
 .stars--1 :nth-child(-n +1),
